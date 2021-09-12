@@ -1,0 +1,7 @@
+valor_a, valor_b=input().split()
+valor_a=float(valor_a)
+valor_b=float(valor_b)
+valor_c, valor_d=input().split()
+valor_c=float(valor_c)
+valor_d=float(valor_d)
+print("%.4f"%(((valor_c-valor_a)**2)+((valor_d-valor_b)**2))**0.5)
